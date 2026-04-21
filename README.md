@@ -12,7 +12,9 @@ Terekhova M., Kleverov M. et al. <i> Pan-atlas of immune aging in blood reveals 
        <tr style="height:300px">
     <td><img width="1315" height="1197" alt="image" src="https://github.com/user-attachments/assets/df662f25-93e2-4dfa-8df8-cc45c81c26b9" /></td>
     <td>
-    <b>Olink_UKBB_LASSO</b> - folder with pipeline to <br>  build LASSO model and apply to UKBB. <br> 
+    <b>Age_clock_model</b> - folder with pipeline ... <br> 
+        <br> 
+    <b>UKBB_protein_model</b> - folder with pipeline ... <br> 
         <br> 
      <b>Figures</b> - Folder with code <br> to reproduce figures. <br>
 </td>
