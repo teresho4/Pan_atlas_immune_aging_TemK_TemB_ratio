@@ -5,7 +5,7 @@ This repository contains an R workflow for training a protein-based lasso model 
 The main script is:
 
 ```bash
-protein_model_public.R
+protein_model.R
 ```
 
 ## Overview
