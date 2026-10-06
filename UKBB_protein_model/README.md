@@ -95,13 +95,3 @@ By default, outputs are written to the `outputs/` directory.
 | `--out-pca-plot` | `outputs/pca_plot.pdf` | PCA plot after ComBat correction. |
 | `--out-r2-plot` | `outputs/r2_plot.pdf` | Observed versus predicted %GZMB+ plots. |
 | `--out-crossval-plot` | `outputs/cross_validation_r2_plot.pdf` | Cross-validation R^2 distribution plot. |
-
-Any output path can be overridden from the command line. For example:
-
-```bash
-Rscript protein_model.R \
-  [required input arguments] \
-  --out-ukbb-predictions results/ukbb_predictions.tsv \
-  --out-lasso-model results/protein_model.rds \
-  --out-pca-plot figures/pca_plot.pdf
-```
