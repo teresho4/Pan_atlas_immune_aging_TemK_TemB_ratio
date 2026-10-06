@@ -52,7 +52,7 @@ If UKBB is provided, the script requires:
 ## Example run with UKBB proteomics file
 
 ```bash
-Rscript protein_model_public.R \
+Rscript protein_model.R \
   --seattle-pct pct_Seattle.csv \
   --seattle-olink BRI_Olink_with_demographics.xlsx \
   --stl-annotations ABF300_pct_of_cells_ratios_noMAIT.csv \
@@ -69,7 +69,7 @@ Rscript protein_model_public.R \
 ## Example run without UKBB
 
 ```bash
-Rscript protein_model_public.R \
+Rscript protein_model.R \
   --seattle-pct pct_Seattle.csv \
   --seattle-olink BRI_Olink_with_demographics.xlsx \
   --stl-annotations ABF300_pct_of_cells_ratios_noMAIT.csv \
@@ -99,7 +99,7 @@ By default, outputs are written to the `outputs/` directory.
 Any output path can be overridden from the command line. For example:
 
 ```bash
-Rscript protein_model_public.R \
+Rscript protein_model.R \
   [required input arguments] \
   --out-ukbb-predictions results/ukbb_predictions.tsv \
   --out-lasso-model results/protein_model.rds \
