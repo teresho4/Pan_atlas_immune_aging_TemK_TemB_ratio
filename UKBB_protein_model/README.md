@@ -22,7 +22,7 @@ The workflow performs the following steps:
 
 ## Input files
 
-The core analysis requires four non-UKBB cohorts.
+The core analysis requires four non-UKBB cohorts. Olink files are available here: https://www.synapse.org/Synapse:syn69762629
 
 ### Required input files
 
